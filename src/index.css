@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  display: grid;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: #ff0707;
+  /* pink */
+  color: #fff;
+  /* white */
+}
